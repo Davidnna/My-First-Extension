@@ -3,17 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="icon.png">
-        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <!-- <link rel="icon" type="image/png" href="https://i.postimg.cc/TwQL9Q2P/icon.png"> -->
+        <!-- 
+            For manifest.json file
+            "default_icon": "https://i.postimg.cc/TwQL9Q2P/icon.png"
+        -->
+        <link rel="stylesheet" href="styles/styles.css">
         <title>My First Extension</title>
     </head>
     <body>
-        <input type="text" id="input-el" placeholder="Type Your Link Here">
-        <button type="button" id="input-btn">SAVE INPUT</button>
-        <button type="button" id="tab-btn">SAVE TAB</button>
-        <button type="button" id="delete-btn">DELETE ALL</button>
-        <ul id="ul-el">
-        </ul>
-        <script src="index.js"></script>
+        <main>
+            <!-- Input -->
+            <input type="text" id="input-el" placeholder="Type Your Link Here">
+            <!-- Actions -->
+            <button type="button" id="input-btn">SAVE INPUT</button>
+            <button type="button" id="tab-btn">SAVE TAB</button>
+            <button type="button" id="delete-btn">DELETE ALL</button>
+            <!-- Links -->
+            <ul id="ul-el"></ul>
+        </main>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
